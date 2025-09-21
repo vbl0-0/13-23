@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="page-title">Kozhabek Ayadil</h1>
+    <h2 class="course-title">WEB Technologies 1 (Front End) </h2>
+    <h3 id="about">About Me</h3>
+    <p class="paragraph-text">Hello! My name is Kozhabek Ayadil.</p>
+
+    <h3 id="hobbies">My Hobbies</h3>
+    <ol class="hobby-list">
+        <li>Playing volleyball</li>
+        <li>Reading books</li>
+        <li>Watching movies</li>
+    </ol>
+
+    <h3>My Favorite Websites</h3>
+    <ul class="fav-websites">
+        <li><a class="nav-link" href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a class="nav-link" href="https://www.youtube.com" target="_blank">YouTube</a></li>
+    </ul>
+
+    <img id="main-image" src="myphoto.jpg" alt="My Photo" width="300">
+
+    <br><br>
+    <button class="button-style">Click Me</button>
+
+    <table class="schedule-table" border="1" cellpadding="5">
+        <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Russian</td>
+            <td>Monday</td>
+            <td>18:00</td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>Wednesday</td>
+            <td>13:00</td>
+        </tr>
+        <tr>
+            <td>Software Design Patterns</td>
+            <td>Friday</td>
+            <td>19:00</td>
+        </tr>
+    </table>
+
+    <table id="layout-table" border="1" width="100%" cellpadding="10">
+        <tr>
+            <td width="30%" valign="top" id="menu">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </td>
+            <td width="70%" valign="top" id="main-content">
+                <h4>Main Content</h4>
+                <p>This is the main content area where I can write information 
+                about myself, my studies, and my projects.</p>
+            </td>
+        </tr>
+    </table>
+
+    <p id="mood-text">Today I feel 😊, a little bit 😴, and want to 💤</p>
+
+    <form id="user-form">
+        <label for="name">Name:</label>
+        <input class="form-input" type="text" id="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input class="form-input" type="email" id="email"><br><br>
+
+        <label for="color">Favorite Color:</label>
+        <input class="form-input" type="color" id="color"><br><br>
+
+        <input class="submit-btn" type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
